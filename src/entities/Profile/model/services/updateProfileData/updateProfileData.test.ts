@@ -1,15 +1,14 @@
-import { userActions } from 'entities/User';
 import { TestAsyncThunk } from 'shared/lib/tests/TestAsyncThunk/TestAsyncThunk';
 import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
-import { ValidateProfileError } from 'entities/Profile';
+import { ValidateProfileError } from '../../types/profile';
 import { updateProfileData } from './updateProfileData';
 
 const data = {
     username: 'admin',
     age: 22,
     country: Country.Ukraine,
-    lastname: 'user345',
+    lastname: 'ulbi tv',
     first: 'asd',
     city: 'asf',
     currency: Currency.USD,
